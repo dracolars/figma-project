@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/figma-project/static/css/main.2f2c5414.css",
+    "main.js": "/figma-project/static/js/main.ea65303f.js",
+    "index.html": "/figma-project/index.html",
+    "main.2f2c5414.css.map": "/figma-project/static/css/main.2f2c5414.css.map",
+    "main.ea65303f.js.map": "/figma-project/static/js/main.ea65303f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f2c5414.css",
+    "static/js/main.ea65303f.js"
+  ]
+}
