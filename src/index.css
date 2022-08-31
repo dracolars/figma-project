@@ -1,13 +1,132 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base{
+  h1{
+    font-weight: 900;
+    color: #003E50;
+    font-size: 2em;
+  }
+
+  h2{
+    font-weight: 800;
+    font-size: 1.5em;
+  }
+
+  h3{
+    font-weight: 300;
+    font-size: 1.1em;
+  }
+
+  div.section-three-break{
+    opacity: 20%;
+  }
+
+  div.section-three-break{
+    opacity: 20%;
+  }
+
+  a {
+    color: #003E50;
+  }
+
+  p.content-text{
+    font-weight: light;
+    padding-bottom: 1em;
+    font-size: 0.9em;
+  }
+
+  p.content-text-centered{
+    color: white;
+    padding-bottom: 1em;
+    font-size: 0.9em;
+    text-align: center !important;
+  }
+
+  div > p{
+    font-size: 0.9em;
+    line-height: 1.5em;
+    font-weight: 200;
+  }
+
+  ul.bulleted-links > li {
+    padding-left: 0.2em;
+    font-weight: 100;
+    font-size: 0.9em;
+    list-style-type: circle;
+    line-height: 1.8em;
+
+  }
+
+  ul.bulleted-links {
+    padding-left: 2em;
+
+  }
+
+  li.footer-links-li > a{
+    color: white;
+    font-weight: 200;
+    font-size: 0.9em;
+    list-style-type: circle;
+    line-height: 1.8em;
+  }
+
+  li.footer-links-li > a:hover{
+    color: #E56E39;
+    text-decoration: underline;
+  }
+
+  p.footer-address{
+    line-height: 1.8em;
+  }
+
+  p.footer-address > a{
+    color: #8DE0FF;
+    font-size: 1em;
+  }
+
+
+  .slide-container {
+    width: 70%;
+    margin: auto; }
+  
+  
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 2em;
+  }
+
+  .each-slide span {
+    padding: 40px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  
+  .each-fade {
+    display: flex;
+  }
+  
+  .each-fade .image-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+    width: 50%;
+  }
+  
+  .each-fade h2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+  }
+
 }
