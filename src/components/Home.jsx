@@ -112,7 +112,7 @@ const Home = () => {
               </div>
   
               <div class="right-three" className='lg:w-1/2 px-4 lg:py-8 py-4'>
-                <div className='bg-[#003E50] lg:h-[23em] xl:w-[35em] md:w-[30em] w-[22em] h-[20em] resize-x text-center text-white m-auto'>
+                <div className='bg-[#003E50] lg:h-[23em] xl:w-[35em] md:w-[30em] w-[100%] h-[50%] resize-x text-center text-white m-auto'>
                 <FontAwesomeIcon icon={faImage} className="text-8xl lg:py-[1.5em] py-[1em]"/>
                 </div>
               </div>
