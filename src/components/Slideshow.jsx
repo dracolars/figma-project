@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import "react-slideshow-image/dist/styles.css";
-
+import Phone from '../media/phone.png'
 
 const properties = {
   duration: 5000,
@@ -34,7 +34,7 @@ const Slideshow = () => {
                 </div>        
             </div>
             <div className='w-2/5 lg:pt-12 md:pt-10 sm:pt-20 pt-28 overflow-hidden px-2'>
-                <img alt="phone" src='../phone.png' className=' w-[22em] z-0'/>
+                <img alt="phone" src={Phone} className=' w-[22em] z-0'/>
             </div>
         </div>
         <div id="slide-two" className="bg-[#0064ab] flex lg:h-[30em] md:h-[24em] h-[21em]">
@@ -57,7 +57,7 @@ const Slideshow = () => {
                 </div>        
             </div>
             <div className='w-2/5 lg:pt-12 md:pt-10 sm:pt-20 pt-28 overflow-hidden px-2'>
-                <img alt="phone" src='../phone.png' className=' w-[22em] z-0'/>
+                <img alt="phone" src={Phone} className=' w-[22em] z-0'/>
             </div>
         </div>
         <div id="slide-three" className="bg-[#004aab] flex lg:h-[30em] md:h-[24em] h-[21em]">
@@ -80,7 +80,7 @@ const Slideshow = () => {
                 </div>        
             </div>
             <div className='w-2/5 lg:pt-12 md:pt-10 sm:pt-20 pt-28 overflow-hidden px-2'>
-                <img alt="phone" src='../phone.png' className=' w-[22em] z-0'/>
+                <img alt="phone" src={Phone} className=' w-[22em] z-0'/>
             </div>
         </div>
       </Slide>

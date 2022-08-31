@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faMagnifyingGlass, faSquarePhoneFlip, faBars, faTimes, faMagnifyingGlassMinus} from '@fortawesome/free-solid-svg-icons';
 import '../index.css'
+import TopSpotLogo from '../media/topspot-logo.png'
 
 
 
@@ -26,7 +27,7 @@ const Navbar = () => {
 
           <div className="w-full lg:flex hidden xl:px-16 px-5 py-4">
                 <div class="topspot-logo" className="w-1/4 inline-block min-w-[15em]">
-                  <img class="logo" src="./topspot-logo.png" alt="topspot logo" className="h-10 pl-12"></img>
+                  <img class="logo" src={TopSpotLogo} alt="topspot logo" className="h-10 pl-12"></img>
                  </div>
                  <div class="navigation-boxes" className="w-3/4 py-2 lg:pr-14 pr-0">
                     <div className='float-right'>
@@ -50,7 +51,7 @@ const Navbar = () => {
 
             <div className='flex lg:hidden'>
                 <div class="topspot-logo" className="w-1/4 py-5">
-                    <img class="logo" src="./topspot-logo.png" alt="topspot logo" className="h-8 pl-2 sm:pl-4 object-contain"></img>
+                    <img class="logo" src={TopSpotLogo} alt="topspot logo" className="h-8 pl-2 sm:pl-4 object-contain"></img>
                 </div>
                 <div className='w-1/2 m-auto'>
                     <a href="tel:8669527200"> <p className='text-center text-xl font-bold hover:text-[#E56E39]'> 866.952.7200 </p> </a>

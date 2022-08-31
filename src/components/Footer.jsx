@@ -1,12 +1,14 @@
-import React from 'react'
+import React from 'react';
+import TopSpotIcon from '../media/topspot-small-logo.png';
+import TopSpotLetters from '../media/topspot-letters.png';
 
 const Footer = () => {
   return (
     <div class="footer" className='bg-[#002A37] w-full lg:px-36 sm:px-10 lg:py-12 py-8 text-white md:lg:flex sm:inline-block text-xs md:text-[1em]'>
           <div className='lg:w-1/4 py-4 px-4 mx-auto'>
             <div class="logo-wrapper" className='flex py-2'>
-              <img src='./topspot-small-logo.png' alt='topspot small logo' className='w-[2.5em] h-[100%] opacity-40'></img>
-              <img src='./topspot-letters.png' alt='topspot letters' className='w-[6em] h-[100%] px-1 py-2 opacity-40'></img>
+              <img src={TopSpotIcon} alt='topspot small logo' className='w-[2.5em] h-[100%] opacity-40'></img>
+              <img src={TopSpotLetters} alt='topspot letters' className='w-[6em] h-[100%] px-1 py-2 opacity-40'></img>
             </div>
             <p className='py-4'>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque.</p>
             <p className='py-6 text-[.6em]'>© 2017 TopSpot Internet Marketing.</p>
