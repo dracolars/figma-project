@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/figma-project/static/css/main.df1e60b6.css",
-    "main.js": "/figma-project/static/js/main.7dcd1f03.js",
+    "main.css": "/figma-project/static/css/main.51569ed8.css",
+    "main.js": "/figma-project/static/js/main.e059b076.js",
     "static/media/phone.png": "/figma-project/static/media/phone.9d2f1918c8ad03c893e4.png",
     "static/media/topspot-logo.png": "/figma-project/static/media/topspot-logo.684a13003e962dce94bc.png",
     "index.html": "/figma-project/index.html",
-    "main.df1e60b6.css.map": "/figma-project/static/css/main.df1e60b6.css.map",
-    "main.7dcd1f03.js.map": "/figma-project/static/js/main.7dcd1f03.js.map"
+    "main.51569ed8.css.map": "/figma-project/static/css/main.51569ed8.css.map",
+    "main.e059b076.js.map": "/figma-project/static/js/main.e059b076.js.map"
   },
   "entrypoints": [
-    "static/css/main.df1e60b6.css",
-    "static/js/main.7dcd1f03.js"
+    "static/css/main.51569ed8.css",
+    "static/js/main.e059b076.js"
   ]
 }
