@@ -75,7 +75,7 @@ const Home = () => {
           <div class="content-section-three" className='min-h-[30em] w-full px-8 lg:px-28 py-8 bg-white'>
   
              <div class="content-section-three-top-half" className='lg:flex inline-block py-6'>
-              <div class="left-three" className='lg:w-1/3 min-w-[20em] p-4 h-min-[20em]'>
+              <div class="left-three" className='lg:w-1/3 min-w-[20em] py-4 px-2 h-min-[20em]'>
                 <div class="left-top-video" className='bg-[#007BAB] text-white m-auto py-20 w-[22em] lg:w-[100%] md:w-[24em]'>
                   <div className='text-center text-5xl'>
                   <FontAwesomeIcon icon={faPlay}/>
@@ -101,8 +101,8 @@ const Home = () => {
             </div>
   
             <div class="content-section-three-bottom-half" className='lg:flex inline-block lg:px-2 px-0 lg:py-10 py-4'>
-              <div class="left-three" className='lg:w-1/2 py-4'>
-                <h2 className='py-2 text-[#003E50]'> H2 - 50 / 50 IMAGE BLOCK</h2>
+              <div class="left-three" className='lg:w-1/2 pr-2'>
+                <h2 className='py-4 text-[#003E50]'> H2 - 50 / 50 IMAGE BLOCK</h2>
                 <p className='py-2'>
                 Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra odio. Donec bibendum nunc sit amet tortor scelerisque luctus et sit amet mauris. Suspendisse felis sem, condimentum ullamcorper est sit amet, molestie mollis nulla. Etiam lorem orci, consequat ac magna quis, facilisis vehicula neque.                
                 </p>
@@ -111,6 +111,7 @@ const Home = () => {
                 </p>
               </div>
   
+
               <div class="right-three" className='lg:w-1/2 lg:py-8 py-4'>
                 <div className='bg-[#003E50] lg:h-[23em] xl:w-[35em] md:w-[30em] w-[100%] h-[50%] resize-x text-center text-white m-auto'>
                 <FontAwesomeIcon icon={faImage} className="text-8xl lg:py-[1.5em] py-[1em]"/>

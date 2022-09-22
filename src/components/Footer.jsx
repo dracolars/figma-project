@@ -19,7 +19,7 @@ const Footer = () => {
         <button class="back-up" onClick={scrollToTop}> <FontAwesomeIcon icon={faAngleUp}/> </button>
       </div>
 
-      <div class="footer" className='bg-[#002A37] w-full lg:px-36 sm:px-10 lg:py-12 py-8 text-white md:lg:flex sm:inline-block text-xs md:text-[1em]'>
+      <div class="footer" className='bg-[#002A37] w-full lg:px-[6.5em] px-[2em] lg:py-12 py-8 text-white md:lg:flex sm:inline-block text-xs md:text-[1em]'>
             <div className='lg:w-1/4 py-4 px-4 mx-auto'>
               <div class="logo-wrapper" className='flex py-2'>
                 <img src={TopSpotIcon} alt='topspot small logo' className='w-[2.5em] h-[100%] opacity-40'></img>
