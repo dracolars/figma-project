@@ -76,8 +76,8 @@ const Home = () => {
   
              <div class="content-section-three-top-half" className='lg:flex inline-block py-6'>
               <div class="left-three" className='lg:w-1/3 min-w-[20em] py-4 px-2 h-min-[20em]'>
-                <div class="left-top-video" className='bg-[#007BAB] text-white m-auto py-20 w-[22em] lg:w-[100%] md:w-[24em]'>
-                  <div className='text-center text-5xl'>
+                <div class="left-top-video" className='bg-[#007BAB] text-white m-auto py-20 w-[22em] lg:w-[100%] md:w-[24em] max-w-[30em]'>
+                  <div className='text-center text-5xl py-4'>
                   <FontAwesomeIcon icon={faPlay}/>
                   </div>
                 </div>
