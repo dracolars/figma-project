@@ -15,7 +15,7 @@
   }
 
   h3{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.1em;
   }
 
@@ -31,8 +31,16 @@
     color: #003E50;
   }
 
+  a:hover {
+    color: #E56E39;
+  }
+
+  p{
+    font-weight: 300; 
+    line-height: 22px;
+  }
+
   p.content-text{
-    font-weight: light;
     padding-bottom: 1em;
     font-size: 0.9em;
   }
@@ -47,22 +55,21 @@
   div > p{
     font-size: 0.9em;
     line-height: 1.5em;
-    font-weight: 200;
   }
 
   ul.bulleted-links > li {
-    padding-left: 0.2em;
-    font-weight: 100;
+    padding-left: 0.5em;
     font-size: 0.9em;
-    list-style-type: circle;
     line-height: 1.8em;
-
+    font-weight: 400;
   }
 
   ul.bulleted-links {
-    padding-left: 2em;
+    padding-left: 1em;
 
   }
+
+  /* Footer */
 
   li.footer-links-li > a{
     color: white;
@@ -86,6 +93,33 @@
     font-size: 1em;
   }
 
+  .back-up{
+    background-color: #E56E39;
+  }
+
+  .back-up :hover{
+    opacity: 80%;
+  }
+
+  button.back-up{
+    position: absolute;
+    top: 1em;
+    left: 85%;
+    color: white;
+    background-clip: border-box;
+    padding-top: .65em;
+    padding-bottom: .6em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  @media (min-width: 767px){
+    button.back-up{
+      left: 92%;
+    }
+  }
+
+  /* Slider */
 
   .slide-container {
     width: 70%;
@@ -127,6 +161,11 @@
     align-items: center;
     margin: 0;
     background: #adceed;
+  }
+
+  ul.indicators{
+    position: relative;
+    bottom: 3em;
   }
 
 }
